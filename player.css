@@ -13,6 +13,9 @@ body {
 #error {
   display: none;
 }
+#button-addon2 {
+  font-size: 12px;
+}
 
 /* #display {
   display: none;
