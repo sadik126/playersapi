@@ -3,3 +3,17 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+#spinner {
+  height: 6rem;
+  width: 6rem;
+  display: none;
+}
+
+#error {
+  display: none;
+}
+
+/* #display {
+  display: none;
+} */

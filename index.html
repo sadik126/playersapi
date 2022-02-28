@@ -21,6 +21,12 @@
 </head>
 
 <body>
+
+
+    <div id="error">
+        <h1 class="text-center text-danger">No player found</h1>
+    </div>
+
     <h1 class="text-center mt-5 text-success">Here is your soccer player⚽⚽</h1>
 
     <div class="input-group mb-3 mx-auto w-50 mt-5">
@@ -30,18 +36,39 @@
                 src="soccer.png" width="32" alt="" "> </button>
     </div>
 
+    <div class=" d-flex justify-content-center" id="display">
+            <div class=" spinner-border text-info ml-5" id="spinner" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+    </div>
+
+
+
     <!-- <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a> -->
 
 
-            <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div id="searchplayers" class="row row-cols-1 row-cols-lg-3 g-5 ">
-
+    <div id="playerdetail" class="w-50 mx-auto">
+        <!-- <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                </div>
+                </div> -->
+    </div>
+
+
+    <div class="container" id="allplayers">
+        <div class="row d-flex justify-content-center">
+            <div id="searchplayers" class="row row-cols-1 row-cols-lg-3 g-5 ">
+
             </div>
+        </div>
+    </div>
 
 
 
